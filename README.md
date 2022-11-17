@@ -86,7 +86,5 @@ Hope SpeedyBee can share more info.
 > 
 > '#' + '#' + total_num + current_num + rx_buffer[(event.size - (current_num - 1)*(spp_mtu_size - 7))]
 > 
-> There are 3 times request for short responses and 6 times request for truncate package long responses.
-> 
-> So I suspect both short and long responses in this demo is well handle by SpeedyBee.
-
+> There are multi-times request for long packet response. it seems ok with UUI, API version and FC version msp commands.
+> [Not Compatible with SpeedyBee App #1](https://github.com/lida2003/BleSppUart/issues/1)
