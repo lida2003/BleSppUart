@@ -67,7 +67,7 @@ ESP-IDF GATT SERVER SPP Example is based.
 
 Current test result shows BLE-SPP UART is NOT supporting SpeedyBee. 
 
-So my premire rootcause is SpeedyBee has it's own protocol between mobile app and BLE SPP device through self defined truncate package format, etc.
+So my premire rootcause is SpeedyBee has it's own protocol between mobile app and BLE SPP device through self defined truncate package format, detailed info see [Connecting SpeedyBee or BetaFlightConfigurator with self make SPP device](https://blog.csdn.net/lida2003/article/details/127901773)
 
 Hope SpeedyBee can share more info.
 
